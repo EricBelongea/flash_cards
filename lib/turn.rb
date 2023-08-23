@@ -2,7 +2,7 @@ class Turn
     attr_reader :string, :card
 
     def initialize(string, card)
-        @string = string
+        @string= string
         @card = card
     end
 
